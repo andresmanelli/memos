@@ -301,7 +301,8 @@
       "max-upload-size": "ขนาดการอัปโหลดสูงสุด (MiB)",
       "max-upload-size-hint": "ค่าที่แนะนำคือ 32 MiB",
       "server-name": "ชื่อเซิร์ฟเวอร์",
-      "removed-completed-task-list-items": "เปิดใช้งานการลบรายการที่ทำแล้ว"
+      "removed-completed-task-list-items": "เปิดใช้งานการลบรายการที่ทำแล้ว",
+      "disable-explore-page": "Disable explore page"
     }
   },
   "tag": {

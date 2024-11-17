@@ -291,7 +291,8 @@
       "max-upload-size": "Maximális feltöltési méret (MiB)",
       "max-upload-size-hint": "Az ajánlott érték 32 MiB.",
       "server-name": "Szerver neve",
-      "removed-completed-task-list-items": "Kikapcsold a kész törölését"
+      "removed-completed-task-list-items": "Kikapcsold a kész törölését",
+      "disable-explore-page": "Disable explore page"
     }
   },
   "tag": {

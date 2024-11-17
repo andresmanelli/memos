@@ -69,5 +69,10 @@
     "type": "Tipus",
     "unpin": "Desenganxa",
     "update": "Actualitza"
+  },
+  "setting": {
+    "system-section": {
+      "disable-explore-page": "Disable explore page"
+    }
   }
 }

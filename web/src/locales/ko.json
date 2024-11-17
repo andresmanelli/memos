@@ -272,7 +272,8 @@
       "max-upload-size": "최대 업로드 크기 (MiB)",
       "max-upload-size-hint": "권장값은 32 MiB입니다.",
       "server-name": "서버 이름",
-      "removed-completed-task-list-items": "완료 제거 활성화"
+      "removed-completed-task-list-items": "완료 제거 활성화",
+      "disable-explore-page": "Disable explore page"
     }
   },
   "tag": {

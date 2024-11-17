@@ -299,7 +299,8 @@
       "enable-password-login-warning": "Ini akan mengaktifkan login kata sandi untuk semua pengguna. Lanjutkan hanya jika Anda ingin pengguna dapat login menggunakan SSO dan kata sandi.",
       "max-upload-size": "Ukuran unggah maksimum (MiB)",
       "max-upload-size-hint": "Nilai yang direkomendasikan adalah 32 MiB.",
-      "server-name": "Nama Server"
+      "server-name": "Nama Server",
+      "disable-explore-page": "Disable explore page"
     },
     "memo-related": "Memo",
     "access-token-section": {

@@ -186,7 +186,10 @@
       "update-storage": "संग्रहण अपडेट करें",
       "warning-text": "क्या आप स्टोरेज सेवा \"{{name}}\" को हटाने के लिए सुनिश्चित हैं?\n\nयह कार्रवाई अप्रत्याशित है।❗"
     },
-    "system": "सिस्टम"
+    "system": "सिस्टम",
+    "system-section": {
+      "disable-explore-page": "Disable explore page"
+    }
   },
   "tag": {
     "all-tags": "सभी टैग",

@@ -147,7 +147,10 @@
       "theme": "السمة"
     },
     "storage": "المساحة التخزينية",
-    "system": "النظام"
+    "system": "النظام",
+    "system-section": {
+      "disable-explore-page": "Disable explore page"
+    }
   },
   "tag": {
     "all-tags": "جميع العلامات",

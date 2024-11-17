@@ -7,9 +7,9 @@ import useCurrentUser from "@/hooks/useCurrentUser";
 import { Routes } from "@/router";
 import { useInboxStore, useWorkspaceSettingStore } from "@/store/v1";
 import { Inbox_Status } from "@/types/proto/api/v1/inbox_service";
+import { WorkspaceGeneralSetting, WorkspaceSettingKey } from "@/types/proto/store/workspace_setting";
 import { useTranslate } from "@/utils/i18n";
 import UserBanner from "./UserBanner";
-import { WorkspaceGeneralSetting, WorkspaceSettingKey } from "@/types/proto/store/workspace_setting";
 
 interface NavLinkItem {
   id: string;
@@ -32,7 +32,6 @@ const Navigation = (props: Props) => {
   const workspaceSettingStore = useWorkspaceSettingStore();
   const workspaceGeneralSetting =
     workspaceSettingStore.getWorkspaceSettingByKey(WorkspaceSettingKey.GENERAL).generalSetting || WorkspaceGeneralSetting.fromPartial({});
-
 
   useEffect(() => {
     if (!user) {
@@ -115,9 +114,9 @@ const Navigation = (props: Props) => {
     icon: <SmileIcon className="w-6 h-auto opacity-70 shrink-0" />,
   };
 
-  const navLinks: NavLinkItem[] = user ? [homeNavLink, resourcesNavLink] : []
+  const navLinks: NavLinkItem[] = user ? [homeNavLink, resourcesNavLink] : [];
   if (!workspaceGeneralSetting.disableExplorePage) {
-    navLinks.push(exploreNavLink)
+    navLinks.push(exploreNavLink);
   }
   if (user) {
     navLinks.push(profileNavLink, inboxNavLink, archivedNavLink, settingNavLink);

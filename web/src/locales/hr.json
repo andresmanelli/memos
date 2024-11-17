@@ -271,7 +271,8 @@
       "max-upload-size": "Maximalna veličina uploada (MiB)",
       "max-upload-size-hint": "Preporučena vrijednost je 32 MiB.",
       "server-name": "Ime servera",
-      "removed-completed-task-list-items": "Omogući uklanjanje obavljenog"
+      "removed-completed-task-list-items": "Omogući uklanjanje obavljenog",
+      "disable-explore-page": "Disable explore page"
     }
   },
   "tag": {

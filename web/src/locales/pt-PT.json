@@ -299,7 +299,8 @@
       "enable-password-login-warning": "Isto permitirá login por palavra-passe e SSO",
       "max-upload-size": "Tamanho máximo (MiB)",
       "max-upload-size-hint": "32 MiB é recomendado.",
-      "server-name": "Nome do Servidor"
+      "server-name": "Nome do Servidor",
+      "disable-explore-page": "Disable explore page"
     },
     "memo-related": "Memo",
     "access-token-section": {
@@ -322,7 +323,7 @@
       "week-start-day": "Dia de início da semana",
       "saturday": "Sábado",
       "sunday": "Domingo",
-      "monday": "Segunda-feira"            
+      "monday": "Segunda-feira"
     },
     "memo-related-settings": {
       "title": "Definições relacionadas com memos",

@@ -1,1 +1,7 @@
-{}
+{
+  "setting": {
+    "system-section": {
+      "disable-explore-page": "Disable explore page"
+    }
+  }
+}

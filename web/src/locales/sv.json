@@ -137,7 +137,8 @@
       "disable-public-memos": "Inaktivera offentliga anteckningar",
       "display-with-updated-time": "Display with updated time",
       "server-name": "Server Name",
-      "removed-completed-task-list-items": "Aktivera ta bort avklarade"
+      "removed-completed-task-list-items": "Aktivera ta bort avklarade",
+      "disable-explore-page": "Disable explore page"
     }
   }
 }

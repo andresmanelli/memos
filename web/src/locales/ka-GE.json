@@ -296,7 +296,8 @@
       "enable-password-login-warning": "ეს ჩართავს პაროლით შესვლას ყველა მომხმარებლისთვის. გააგრძელეთ მხოლოდ იმ შემთხვევაში, თუ გინდათ, რომ მომხმარებლებს შეეძლოთ შესვლა როგორც SSO-ს, ასევე პაროლით",
       "max-upload-size": "მაქსიმალური ატვირთვის ზომა (MiB)",
       "max-upload-size-hint": "რეკომენდირებული ზომა არის 32 MiB.",
-      "server-name": "სერვერის სახელი"
+      "server-name": "სერვერის სახელი",
+      "disable-explore-page": "Disable explore page"
     },
     "memo-related": "მემო"
   },

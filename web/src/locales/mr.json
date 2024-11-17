@@ -295,7 +295,8 @@
       "max-upload-size": "कमाल अपलोड आकार (MiB)",
       "max-upload-size-hint": "शिफारस केलेले मूल्य 32 MiB आहे.",
       "server-name": "सर्व्हरचे नाव",
-      "removed-completed-task-list-items": "हटवा केलेले सक्षम करा"
+      "removed-completed-task-list-items": "हटवा केलेले सक्षम करा",
+      "disable-explore-page": "Disable explore page"
     }
   },
   "tag": {

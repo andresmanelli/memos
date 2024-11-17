@@ -301,7 +301,8 @@
       "max-upload-size": "Taille maximale du téléversement (MiB)",
       "max-upload-size-hint": "La valeur recommandée est 32 MiB.",
       "server-name": "Nom du serveur",
-      "removed-completed-task-list-items": "Activer la suppression terminée"
+      "removed-completed-task-list-items": "Activer la suppression terminée",
+      "disable-explore-page": "Disable explore page"
     }
   },
   "tag": {

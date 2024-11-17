@@ -301,7 +301,8 @@
       "max-upload-size": "最大上传大小 (MiB)",
       "max-upload-size-hint": "建议值为 32 MiB。",
       "server-name": "服务器名称",
-      "removed-completed-task-list-items": "启用移除已办"
+      "removed-completed-task-list-items": "启用移除已办",
+      "disable-explore-page": "Disable explore page"
     },
     "memo-related": "备忘录"
   },

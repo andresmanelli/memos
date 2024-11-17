@@ -303,7 +303,8 @@
       "max-upload-size": "Kích thước tải lên tối đa (MiB)",
       "max-upload-size-hint": "Giá trị đề xuất là 32 MiB.",
       "server-name": "Tên máy chủ",
-      "removed-completed-task-list-items": "Kích hoạt xóa đã hoàn thành"
+      "removed-completed-task-list-items": "Kích hoạt xóa đã hoàn thành",
+      "disable-explore-page": "Disable explore page"
     },
     "memo-related": "Ghi chú",
     "access-token-section": {

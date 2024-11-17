@@ -267,7 +267,8 @@
       "max-upload-size": "Maximale Uploadgröße (MiB)",
       "max-upload-size-hint": "Empfohlene Wert ist 32 MiB.",
       "server-name": "Servername",
-      "removed-completed-task-list-items": "Entfernen abgeschlossen aktivieren"
+      "removed-completed-task-list-items": "Entfernen abgeschlossen aktivieren",
+      "disable-explore-page": "Disable explore page"
     }
   },
   "tag": {

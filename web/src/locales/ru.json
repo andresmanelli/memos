@@ -284,7 +284,8 @@
       "max-upload-size": "Максимальный размер загрузки (МБ)",
       "max-upload-size-hint": "Рекомендуемое значение 32 MБ.",
       "server-name": "Имя сервера",
-      "removed-completed-task-list-items": "Включить удаление выполненных"
+      "removed-completed-task-list-items": "Включить удаление выполненных",
+      "disable-explore-page": "Disable explore page"
     }
   },
   "tag": {

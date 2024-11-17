@@ -301,7 +301,8 @@
       "max-upload-size": "最大ファイルサイズ(MiB)",
       "max-upload-size-hint": "推奨サイズは32 MiBです。",
       "server-name": "サーバーの名前",
-      "removed-completed-task-list-items": "完了削除を有効にする"
+      "removed-completed-task-list-items": "完了削除を有効にする",
+      "disable-explore-page": "Disable explore page"
     }
   },
   "tag": {

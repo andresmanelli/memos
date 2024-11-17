@@ -239,7 +239,8 @@
       "max-upload-size": "Maximum uploadgrootte (MiB)",
       "max-upload-size-hint": "32 MiB wordt aangeraden.",
       "server-name": "Servernaam",
-      "removed-completed-task-list-items": "Verwijder voltooid inschakelen"
+      "removed-completed-task-list-items": "Verwijder voltooid inschakelen",
+      "disable-explore-page": "Disable explore page"
     }
   },
   "tag": {

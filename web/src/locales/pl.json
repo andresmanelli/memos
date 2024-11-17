@@ -299,7 +299,8 @@
       "max-upload-size": "Maksymalny rozmiar przesyłanego pliku (MiB)",
       "max-upload-size-hint": "Zalecana wartość to 32 MiB.",
       "server-name": "Nazwa serwera",
-      "removed-completed-task-list-items": "Włącz usuwanie zakończonych"
+      "removed-completed-task-list-items": "Włącz usuwanie zakończonych",
+      "disable-explore-page": "Disable explore page"
     },
     "memo-related": "Notatki"
   },
