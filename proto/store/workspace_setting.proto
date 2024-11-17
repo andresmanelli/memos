@@ -53,6 +53,8 @@ message WorkspaceGeneralSetting {
   bool disallow_change_username = 7;
   // disallow_change_nickname disallows changing nickname.
   bool disallow_change_nickname = 8;
+  // disable_explore_page disabled the explore page
+  bool disable_explore_page = 9;
 }
 
 message WorkspaceCustomProfile {

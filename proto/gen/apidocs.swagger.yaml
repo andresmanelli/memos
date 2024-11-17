@@ -2113,6 +2113,9 @@ definitions:
       disallowChangeNickname:
         type: boolean
         description: disallow_change_nickname disallows changing nickname.
+      disableExplorePage:
+        type: boolean
+        title: disable_explore_page disabled the explore page
   apiv1WorkspaceMemoRelatedSetting:
     type: object
     properties:

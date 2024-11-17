@@ -5,10 +5,11 @@ import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import useCurrentUser from "@/hooks/useCurrentUser";
 import { Routes } from "@/router";
-import { useInboxStore } from "@/store/v1";
+import { useInboxStore, useWorkspaceSettingStore } from "@/store/v1";
 import { Inbox_Status } from "@/types/proto/api/v1/inbox_service";
 import { useTranslate } from "@/utils/i18n";
 import UserBanner from "./UserBanner";
+import { WorkspaceGeneralSetting, WorkspaceSettingKey } from "@/types/proto/store/workspace_setting";
 
 interface NavLinkItem {
   id: string;
@@ -28,6 +29,10 @@ const Navigation = (props: Props) => {
   const user = useCurrentUser();
   const inboxStore = useInboxStore();
   const hasUnreadInbox = inboxStore.inboxes.some((inbox) => inbox.status === Inbox_Status.UNREAD);
+  const workspaceSettingStore = useWorkspaceSettingStore();
+  const workspaceGeneralSetting =
+    workspaceSettingStore.getWorkspaceSettingByKey(WorkspaceSettingKey.GENERAL).generalSetting || WorkspaceGeneralSetting.fromPartial({});
+
 
   useEffect(() => {
     if (!user) {
@@ -110,9 +115,15 @@ const Navigation = (props: Props) => {
     icon: <SmileIcon className="w-6 h-auto opacity-70 shrink-0" />,
   };
 
-  const navLinks: NavLinkItem[] = user
-    ? [homeNavLink, resourcesNavLink, exploreNavLink, profileNavLink, inboxNavLink, archivedNavLink, settingNavLink]
-    : [exploreNavLink, signInNavLink, aboutNavLink];
+  const navLinks: NavLinkItem[] = user ? [homeNavLink, resourcesNavLink] : []
+  if (!workspaceGeneralSetting.disableExplorePage) {
+    navLinks.push(exploreNavLink)
+  }
+  if (user) {
+    navLinks.push(profileNavLink, inboxNavLink, archivedNavLink, settingNavLink);
+  } else {
+    navLinks.push(signInNavLink, aboutNavLink);
+  }
 
   return (
     <header

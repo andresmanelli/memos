@@ -62,6 +62,13 @@ const WorkspaceSection = () => {
           {t("common.edit")}
         </Button>
       </div>
+      <div className="w-full flex flex-row justify-between items-center">
+        <span>{t("setting.system-section.disable-explore-page")}</span>
+        <Switch
+          checked={workspaceGeneralSetting.disableExplorePage}
+          onChange={(event) => updatePartialSetting({ disableExplorePage: event.target.checked })}
+        />
+      </div>
       <Divider />
       <p className="font-medium text-gray-700 dark:text-gray-500">General</p>
       <div className="w-full flex flex-row justify-between items-center">
